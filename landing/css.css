@@ -1,0 +1,95 @@
+.wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    color: white; padding: 10px 5px;
+    text-decoration: none;
+}
+
+.link {
+    margin: 0 10px;
+}
+
+a:hover {
+       color: orangered; /* Цвет ссылки */
+    transition: all 0.3s ease-out;
+}
+body {
+    margin: 0 auto;
+    background-color: blue;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img-container {
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(169,169,169,0.5);
+    padding: 20px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.h {
+    color: navajowhite;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sub-header {
+
+    color: goldenrod;
+    margin-top: 50px;
+    border-left: 5px solid darkred;
+    padding-left: 10px;
+    font-family: 'Piazzolla', serif;
+
+}
+
+.shadow {
+        box-shadow: 0 0 0 2px cornflowerblue, 0 0 13px #333; /* Параметры теней */
+}
+
+p {
+    color: white;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+
+    font-size: 14pt;
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    text-align: center;
+    font-size: 15pt;
+    background-color: #666666;
+    padding: 10px 10px;
+    border-bottom: darkgray 2px dashed;
+}
+
+.footer {
+    color: gray;
+    border-top: #666666 1px solid;
+    text-align: center;
+    padding: 20px;
+}
+.info {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 18pt;
+    color: darkkhaki;
+}
